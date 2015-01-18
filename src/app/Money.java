@@ -1,10 +1,9 @@
 /**
  * Created by Laurie on 18/01/2015.
  */
-public abstract class Money {
+public class Money {
     protected int amount;
     protected String currency;
-
     Money (int amount, String currency){
         this.amount = amount;
         this.currency = currency;
@@ -20,7 +19,12 @@ public abstract class Money {
     }
     public boolean equals(Object object) {
         Money money = (Money) object;
-        return money.amount == this.amount && getClass().equals(money.getClass());
+        return money.amount == this.amount && currency().equals(money.currency());
     }
-    abstract Money times(int multiplier);
+    public Money times(int multiplier) {
+        return new Money(this.amount * multiplier, currency);
+    }
+    public String toString(){
+        return amount + " " + currency;
+    }
 }
