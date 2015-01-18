@@ -5,6 +5,6 @@ public class Money {
     protected int amount;
     public boolean equals(Object object) {
         Money money = (Money) object;
-        return money.amount == this.amount;
+        return money.amount == this.amount && getClass().equals(money.getClass());
     }
 }
