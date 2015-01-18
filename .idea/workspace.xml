@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="423cedca-4b3c-4b66-bb22-db453cd0277e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TDD_Multicurrency.iml" afterPath="$PROJECT_DIR$/TDD_Multicurrency.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="423cedca-4b3c-4b66-bb22-db453cd0277e" name="Default" comment="" />
     <ignored path="TDD_Multicurrency.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -362,12 +358,12 @@
       <created>1421612551251</created>
       <option name="number" value="Default" />
       <updated>1421612551251</updated>
-      <workItem from="1421612560198" duration="672000" />
+      <workItem from="1421612560198" duration="970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="672000" />
+    <option name="totallyTimeSpent" value="970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="70" width="1346" height="688" extended-state="0" />
